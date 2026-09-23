@@ -45,11 +45,3 @@ Start development:
 ```bash
 npm run dev
 ```
-
-The dev script intentionally uses `next dev --webpack` because some Windows environments cannot load the native Next.js/Turbopack SWC binary.
-
-Open `http://localhost:3000`.
-
-
-### Database message ID note
-AI SDK message IDs are string IDs and are not guaranteed to be UUIDs. The `messages.id` and `image_generations.message_id` columns therefore use PostgreSQL `text`, while chat IDs remain UUIDs. If you previously ran an older version of this project, run `npm run db:push` after updating the schema.
