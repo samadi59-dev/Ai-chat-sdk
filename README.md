@@ -1,4 +1,4 @@
-# AI Chat SDK Sample — Next.js + AI SDK + Neon + Drizzle
+# AI Chat SDK 
 
 A clean ChatGPT-style sample app built with Next.js, TypeScript and AI SDK.
 
